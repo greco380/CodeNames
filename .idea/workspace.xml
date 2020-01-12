@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75c8fbba-b8db-41c8-abb0-21a3128778f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/game_logic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playing_board.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/draw_key.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part1.py" beforeDir="false" afterPath="$PROJECT_DIR$/key_of_game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_logic.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_logic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/key_of_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/key_of_game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playing_board.py" beforeDir="false" afterPath="$PROJECT_DIR$/playing_board.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +35,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.key_of_game">
+  <component name="RunManager" selected="Python.draw_key">
+    <configuration name="draw_key" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="random_5x5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/draw_key.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="game_logic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="random_5x5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game_logic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="key_of_game" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="random_5x5" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,8 +143,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.key_of_game" />
+        <item itemvalue="Python.draw_key" />
+        <item itemvalue="Python.game_logic" />
         <item itemvalue="Python.playing_board" />
+        <item itemvalue="Python.key_of_game" />
         <item itemvalue="Python.part1" />
       </list>
     </recent_temporary>
@@ -127,64 +171,49 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/playing_board.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="54" />
+          <url>file://$PROJECT_DIR$/draw_key.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/playing_board.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="55" />
+          <url>file://$PROJECT_DIR$/draw_key.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/playing_board.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="56" />
+          <url>file://$PROJECT_DIR$/draw_key.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/playing_board.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="57" />
+          <url>file://$PROJECT_DIR$/draw_key.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/playing_board.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="58" />
+          <url>file://$PROJECT_DIR$/draw_key.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/playing_board.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="59" />
+          <url>file://$PROJECT_DIR$/draw_key.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/playing_board.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="60" />
+          <url>file://$PROJECT_DIR$/draw_key.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="80" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/playing_board.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="62" />
+          <url>file://$PROJECT_DIR$/draw_key.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/playing_board.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/playing_board.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/playing_board.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/playing_board.py</url>
-          <line>23</line>
-          <option name="timeStamp" value="66" />
+          <url>file://$PROJECT_DIR$/draw_key.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="82" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

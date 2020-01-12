@@ -21,10 +21,10 @@ def speaker_playmat():
 
 def player_who_starts():
     start = randint(0, 1)
-    if start == 0:
-        print("Blue")
-    else:
-        print("Red")
+    # if start == 0:
+    #     print("Blue")
+    # else:
+    #     print("Red")
     return start
 
 
@@ -64,22 +64,22 @@ def list_of_possibilities(starter):
     bystander = 7
     if starter == 0:
         for i in range(0, start_max):
-            array += ["B"]
+            array += ["Blue"]
         for i in range(0, second_max):
-            array += ["R"]
+            array += ["Red"]
         for i in range(0, spy):
-            array += ["spy"]
+            array += ["Spy"]
         for i in range(0, bystander):
-            array += ["By"]
+            array += ["Bystander"]
     else:
         for i in range(0, start_max):
-            array += ["R"]
+            array += ["Red"]
         for i in range(0, second_max):
-            array += ["B"]
+            array += ["Blue"]
         for i in range(0, spy):
-            array += ["spy"]
+            array += ["Spy"]
         for i in range(0, bystander):
-            array += ["By"]
+            array += ["Bystander"]
     return array
 
 
@@ -96,15 +96,14 @@ def make_array(arr, number_of_each):
     return arr
 
 
-
 def main():
     arr = speaker_playmat()
-    print("Who starts:")
+    # print("Who starts:")
     starter = player_who_starts()
-    print("---------------\n")
+    # print("---------------\n")
     number_of_each = list_of_possibilities(starter)
     make_array(arr, number_of_each)
-
+    return "------------------------------------------------------------------------"
 
 
 if __name__ == '__main__':

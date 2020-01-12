@@ -28,6 +28,7 @@ def main():
         words.append(line)
     arr = playmat()
     make_board(arr, words)
+    return "\n------------------------------------------------------------------------"
 
 
 if __name__ == '__main__':
