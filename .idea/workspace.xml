@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75c8fbba-b8db-41c8-abb0-21a3128778f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/draw_key.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_logic.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_logic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/key_of_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/key_of_game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playing_board.py" beforeDir="false" afterPath="$PROJECT_DIR$/playing_board.py" afterDir="false" />
-    </list>
+    <list default="true" id="75c8fbba-b8db-41c8-abb0-21a3128778f8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +42,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/draw_key.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\greco\PycharmProjects\random_5x5\draw_key_turtle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
