@@ -14,8 +14,8 @@ def speaker_playmat():
     # arr[0][0] = 1
 
     # prints the rows and cols in the format that I want
-    for row in arr:
-        print(row)
+    # for row in arr:
+    #     print(row)
     return arr
 
 
@@ -28,13 +28,13 @@ def player_who_starts():
     return start
 
 
-def random_value(arr, starter):
-    for i in range(0, 5):
-        for j in range(0, 5):
-            arr[i][j] = randint(1, 10)
-    for row in arr:
-        print(row)
-    return arr
+# def random_value(arr, starter):
+#     for i in range(0, 5):
+#         for j in range(0, 5):
+#             arr[i][j] = randint(1, 10)
+#     for row in arr:
+#         print(row)
+#     return arr
 
 
 # def random_placement(arr, starter):
@@ -83,12 +83,12 @@ def list_of_possibilities(starter):
     return array
 
 
-def make_array(arr, list):
+def make_array(arr, number_of_each):
     for i in range(0, 5):
         for j in range(0, 5):
             # element = random.choice(list)
-            rint = randint(0, len(list) - 1)
-            element = list.pop(rint)
+            rint = randint(0, len(number_of_each) - 1)
+            element = number_of_each.pop(rint)
             arr[i][j] = element
             # list = list.remove(element)
     for row in arr:
@@ -99,13 +99,11 @@ def make_array(arr, list):
 
 def main():
     arr = speaker_playmat()
-    print("\nWho starts:")
+    print("Who starts:")
     starter = player_who_starts()
-    # print("\nRandom num grid:")
-    # random_value(arr, starter)
-    print("\n---------------")
-    list = list_of_possibilities(starter)
-    make_array(arr, list)
+    print("---------------\n")
+    number_of_each = list_of_possibilities(starter)
+    make_array(arr, number_of_each)
 
 
 
