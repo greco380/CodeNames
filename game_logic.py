@@ -15,6 +15,9 @@ def link_key_with_board():
     print(link)
 
 
+def second():
+    pass
+
 
 def main():
     print("\n\t\tThe Board looks like:\n")
