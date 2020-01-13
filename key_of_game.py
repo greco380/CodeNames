@@ -92,7 +92,7 @@ def make_array(arr, number_of_each):
             arr[i][j] = element
             # list = list.remove(element)
     # for row in arr:
-    #     print(row)
+    #     print(row)  # Error printing happening here when trying to display the dictionary
     return arr
 
 
