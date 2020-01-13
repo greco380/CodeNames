@@ -91,8 +91,8 @@ def make_array(arr, number_of_each):
             element = number_of_each.pop(rint)
             arr[i][j] = element
             # list = list.remove(element)
-    for row in arr:
-        print(row)
+    # for row in arr:
+    #     print(row)
     return arr
 
 
@@ -102,9 +102,10 @@ def main():
     starter = player_who_starts()
     # print("---------------\n")
     number_of_each = list_of_possibilities(starter)
-    make_array(arr, number_of_each)
+    array_key = make_array(arr, number_of_each)
+    # print("------------------------")
     # return make_array(arr, number_of_each)
-    return "------------------------------"
+    return array_key
 
 
 if __name__ == '__main__':

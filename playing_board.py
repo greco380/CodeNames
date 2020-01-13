@@ -7,6 +7,7 @@ def playmat():
     arr = [[0 for i in range(cols)] for j in range(rows)]
     return arr
 
+
 def make_board(arr, words):
     for i in range(0, 5):
         for j in range(0, 5):
@@ -14,8 +15,8 @@ def make_board(arr, words):
             element = words.pop(rint)
             # element = random.choice(words)
             arr[i][j] = element
-    for row in arr:
-        print(row)
+    # for row in arr:
+    #     print(row)  # Error printing happening here when trying to display the dictionary
     return arr
 
 
@@ -27,8 +28,8 @@ def main():
         line = line.strip()
         words.append(line)
     arr = playmat()
-    make_board(arr, words)
-    return "\n------------------------------------------------------------------------"
+    array_board = make_board(arr, words)
+    return array_board
 
 
 if __name__ == '__main__':
