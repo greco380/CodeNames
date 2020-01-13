@@ -35,11 +35,11 @@ def move_spaces():
     turtle.down()
 
 
-def fill_box():
-    r = random.randnum(0, 255)
+def fill_box(color):
+    r = random.randint(0, 255)
     g = random.randint(0, 255)
     b = random.randint(0, 255)
-    turtle.fillcolor(r, g, b)
+    turtle.fillcolor(color)
     turtle.begin_fill()
     turtle.left(90)
     for i in range(0, 4):
@@ -49,12 +49,80 @@ def fill_box():
     turtle.end_fill()
 
 
+def next_line():
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.right(90)
+    turtle.forward(500)
+
+
 def main():
+    turtle.tracer(0)
     key_box()
 
-    for i in range(0, 5):
-        fill_box()
-        move_spaces()
+    fill_box("blue")
+    move_spaces()
+    fill_box("#e1df9d")
+    move_spaces()
+    fill_box("blue")
+    move_spaces()
+    fill_box("red")
+    move_spaces()
+    fill_box("red")
+    move_spaces()
+    next_line()
+
+    fill_box("red")
+    move_spaces()
+    fill_box("blue")
+    move_spaces()
+    fill_box("red")
+    move_spaces()
+    fill_box("red")
+    move_spaces()
+    fill_box("blue")
+    move_spaces()
+    next_line()
+
+    fill_box("#e1df9d")
+    move_spaces()
+    fill_box("blue")
+    move_spaces()
+    fill_box("black")
+    move_spaces()
+    fill_box("#e1df9d")
+    move_spaces()
+    fill_box("#e1df9d")
+    move_spaces()
+    next_line()
+
+    fill_box("blue")
+    move_spaces()
+    fill_box("red")
+    move_spaces()
+    fill_box("#e1df9d")
+    move_spaces()
+    fill_box("blue")
+    move_spaces()
+    fill_box("red")
+    move_spaces()
+    next_line()
+
+    fill_box("blue")
+    move_spaces()
+    fill_box("#e1df9d")
+    move_spaces()
+    fill_box("blue")
+    move_spaces()
+    fill_box("red")
+    move_spaces()
+    fill_box("#e1df9d")
+    move_spaces()
+    next_line()
+
+    # for i in range(0, 5):
+    #     fill_box()
+    #     move_spaces()
 
     turtle.done()
 

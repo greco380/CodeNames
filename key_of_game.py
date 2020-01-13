@@ -103,7 +103,8 @@ def main():
     # print("---------------\n")
     number_of_each = list_of_possibilities(starter)
     make_array(arr, number_of_each)
-    return "------------------------------------------------------------------------"
+    # return make_array(arr, number_of_each)
+    return "------------------------------"
 
 
 if __name__ == '__main__':
