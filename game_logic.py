@@ -27,6 +27,9 @@ def second(number, linked_dict):
         if guess in linked_dict:
             # return linked_dict.get(guess)  # need to not return here because I want to stay in the for loop
             get_value = linked_dict.get(guess)
+            # if get_value == 'Spy':
+            #     print("That is the spy!\nGame OVER")
+            #     return None
             if get_value == 'Bystander':
                 print(get_value)
                 return None
@@ -40,7 +43,7 @@ def second(number, linked_dict):
 
 
 def main():
-    print("\n\t\tThe Board looks like:\n")
+    print("\n\t\tThe Board looks like:")
     arr = playing_board.main()
     for row in arr:
         print(row)
@@ -48,15 +51,32 @@ def main():
     arra = key_of_game.main()
     for row in arra:
         print(row)
-    print("\n-------------------")
-    print("The dictionary that links the board to the key")
+    # print("\n-------------------")
+    # print("The dictionary that links the board to the key")
     linked_dict = link_key_with_board()
-    print(linked_dict)
-    print("\n\n")
-    for i in range(1, 15):
-        str(input("Enter your one-word hint: "))
-        number = int(input("Enter how many cards the hint is for: "))
-        print(second(number, linked_dict))
+    # #  print(linked_dict)
+    # print("\n\n")
+    start = key_of_game.player_who_starts()
+    if start == 0:
+        print("\n\nRed Starts\n")
+        for i in range(0, 20):
+            if i % 2 == 0:
+                print("Red Turn:")
+            else:
+                print("Blue Turn:")
+            str(input("Enter your one-word hint: "))
+            number = int(input("Enter how many cards the hint is for: "))
+            print(second(number, linked_dict))
+    else:
+        print("\n\nBlue Starts\n")
+        for i in range(0, 20):
+            if i % 2 == 0:
+                print("Blue Turn:")
+            else:
+                print("Red Turn:")
+            str(input("Enter your one-word hint: "))
+            number = int(input("Enter how many cards the hint is for: "))
+            print(second(number, linked_dict))
 
 
 if __name__ == '__main__':
